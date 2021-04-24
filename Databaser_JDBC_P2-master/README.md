@@ -1,8 +1,7 @@
-# Databaseprosjekt 2
-### Klasser
-Klassen Treningsapp.js fungerer som tilkoblingen til databasern
-Bruker.js, er en klasse som kobles til Bruker tabellen i databasen
+# Classes
+The class Treningsapp.js connects to the database.
+The class Bruker.js refers to the Bruker(meaning user) table in the database.
 
-### Oppsett
-Det er viktig å sette opp en database ved navn 'treningsdagbok' i dette tilfellet. Husk også å state serveren og lage databasen og tabellene før du kjører koden.
-For at java koden skal kunne koble seg til databasen er det viktig å legge til mysql-connector-java-8.0.15.jar filen i library
+# Setup
+To set up the environment, you'll need to instantiate a database named "treningsdagbok" in the case of this program. The server, along with the fully setup database has to be set up before the program is run.
+It's important to put the mysql-connector-java-8.0.15.jar file into library to ensure that the program connects to the database.
